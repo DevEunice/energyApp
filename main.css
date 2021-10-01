@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Roboto&family=Source+Sans+Pro&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*global style*/
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+	width:75%;
+	margin: 0.2rem auto 0.2rem auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+/*End global style*/
+
+
+/*Header style*/
+
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	text-align: center;
+	padding: 1rem;
+}
+
+.header h1{
+	font-size: 1.1rem;
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	color:green;
+	text-transform: uppercase;
+}
+
+.header .fa-charging-station{
+	font-size: 2rem;
+	margin-right: 0.8rem;
+}
+
+/*End header style*/
+
+
+
+/*form styling*/
+.form-wrapper{
+	width: 50%;
+	padding: 0.3rem 1.5rem;
+	background-color: green;
+	text-shadow: 0px 1px 10 rgba(0,0,0,0.8);
+}
+.form-header{
+	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	padding: 0.6rem 1rem;
+	font-size: 0.9rem;
+	color:#ffffff;
+
+}
+
+.form-header h2{
+	font-size: 0.9rem;
+}
+
+.form-group{
+	display: flex;
+	align-items: center;
+}
+
+.form-group-input label{
+	font-size: 0.9rem;
+}
+
+.form-group-input{
+	flex:1;
+	display: flex;
+	flex-direction: column;
+	text-align: start;
+	color: #fff;
+	font-weight: bold;
+	padding: 0.7rem;
+}
+
+.form-group-icons{
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	font-size: 1rem;
+	padding: 1.2rem;
+}
+
+.form-group-input input{
+	padding: 0.6rem;
+}
+
+.form-group-input input:focus{
+	border: none;
+}
+
+.action button{
+	width:50%;
+	padding: 0.5rem 0.9rem;
+	border:none;
+	background: #fff;
+	color:green;
+	font-size: 1.2rem;
+	font-weight: bold;
+	cursor: pointer;
+	transition: 1s all ease-in;
+}
+
+.action button:hover{
+	background: grey;
+	color:#fff;
+}
+
+.alert{
+	width: 100%;
+	padding: 0.9rem;
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.alert-danger{
+	background: red;
+	}
+.alert-success{
+		background: orange;
+	}
+.hideId{
+	display: none;
+}
+
+/*End form style*/
+
+
+/*table style*/
+
+.output{
+	margin-top:0.6rem;
+}
+
+#output-table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+#output-table td, #output-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#output-table tr:nth-child(even){background-color: #f2f2f2;}
+
+#output-table tr:hover {background-color: #ddd;}
+
+#output-table th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: green;
+  color: white;
+}
+
+.delete{
+	color:#fff;
+	cursor: pointer;
+	padding: 0.5rem;
+	background: red;
+}
+
+/*End table style*/
